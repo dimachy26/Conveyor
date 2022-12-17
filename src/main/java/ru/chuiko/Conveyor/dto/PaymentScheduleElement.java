@@ -7,10 +7,10 @@ import java.time.LocalDate;
 
 @Data
 public class PaymentScheduleElement {
-    private Integer number;
-    private LocalDate data;
-    private BigDecimal totalPayment;
-    private BigDecimal interestPayment;
-    private BigDecimal debtPayment;
-    private BigDecimal remainingDebt;
+       Integer number;
+       LocalDate date;
+       BigDecimal totalPayment;
+       BigDecimal interestPayment;
+       BigDecimal debtPayment;
+       BigDecimal remainingDebt ;
 }
