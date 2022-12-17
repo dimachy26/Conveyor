@@ -8,10 +8,10 @@ import java.math.BigDecimal;
 
 @Data
 public class EmploymentDTO {
-       EmploymentStatus employmentStatus;
-       String employerINN;
-       BigDecimal salary;
-       Position position;
-       Integer workExperienceTotal;
-       Integer workExperienceCurrent;
+       private EmploymentStatus employmentStatus;
+       private String employerINN;
+       private BigDecimal salary;
+       private Position position;
+       private Integer workExperienceTotal;
+       private Integer workExperienceCurrent;
 }

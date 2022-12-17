@@ -7,14 +7,14 @@ import java.time.LocalDate;
 
 @Data
 public class LoanApplicationRequestDTO {
-    BigDecimal amount ;
-    Integer term ;
-    String firstName ;
-    String lastName ;
-    String middleName ;
-    String email ;
-    LocalDate birthdate ;
-    String passportSeries ;
-    String passportNumber ;
+    private BigDecimal amount ;
+    private Integer term ;
+    private String firstName ;
+    private String lastName ;
+    private String middleName ;
+    private String email ;
+    private LocalDate birthdate ;
+    private String passportSeries ;
+    private String passportNumber ;
 
 }
